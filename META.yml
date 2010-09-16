@@ -22,11 +22,12 @@ requires:
   App::Ack: 1.92
   App::cpanminus: 1.0012
   App::local::lib::helper: 0.02
-  Carp::REPL: 0.15
   Module::Install: 1.00
   Module::Install::AuthorTests: 0.002
   Module::Install::AutoManifest: 0.003
   Module::Install::GithubMeta: 0.10
+  Module::Install::ManifestSkip: 0.12
+  Module::Install::ReadmeFromPod: 0.12
   Module::Install::ReadmePodFromPod: 0.01
   Module::Setup: 0.09
   perl: 5.8.8
@@ -34,4 +35,4 @@ resources:
   homepage: http://github.com/jjn1056/Task-BeLike-JJNAPIORK/tree
   license: http://dev.perl.org/licenses/
   repository: git://github.com/jjn1056/Task-BeLike-JJNAPIORK.git
-version: 0.02
+version: 0.03
