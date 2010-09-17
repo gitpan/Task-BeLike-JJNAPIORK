@@ -1,7 +1,7 @@
 package Task::BeLike::JJNAPIORK;
 
 use 5.008008;
-our $VERSION = '0.03';
+our $VERSION = '0.04';
 
 =head1 NAME
 
@@ -71,6 +71,18 @@ Awesome searching power.
 
 Easier to install CPAN modules
 
+=item L<App::local::lib::helper>
+
+Make it easier to use L<local::lib>
+
+=item L<Module::Setup>
+
+For when I am too lazy to make my own project skeletons
+
+=item L<Module::Setup::Flavor::JJNAPIORK>
+
+If I am using L<Module::Setup> I want a flavor that makes sense to me.
+
 =item L<Module::Install>
 
 Easier to manage your project dependencies.
@@ -79,17 +91,19 @@ Easier to manage your project dependencies.
 
 Mark some tests as author only.
 
-=item L<Module::Install::GithubMeta>
+=item L<Module::Install::Repository>
 
-Add github repository stuff.
+Add source control repository information to META
 
 =item L<Module::Install::AutoManifest>
 
 Make and clean manifest files for me.
 
-=item L<Module::Install::ReadmePodFromPod>
+=item L<Module::Install::ReadmeMarkdownFromPod>
 
-Make the readme file I am always forgetting to do.
+Make the readme file I am always forgetting to do. Markdown has become
+popular since its very readable in a text view and if you are using Github
+it will get parsed and rendered very nicely.
 
 =item L<Module::Install::ReadmeFromPod>
 
@@ -99,13 +113,13 @@ For when a text only README is desired.
 
 Start you off with a sane MANIFEST.SKIP file.
 
-=item L<Module::Setup>
+=item L<Module::Install::Homepage>
 
-For when I am too lazy to make my own project skeletons
+Set or guess a reasonable homepage for your module.
 
-=item L<App::local::lib::helper>
+=item L<Module::Install::AutoLicense>
 
-Make it easier to use L<local::lib>
+Create a lICENSE file it it is missing.
 
 =back
 
