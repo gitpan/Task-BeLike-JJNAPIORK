@@ -23,12 +23,10 @@ requires:
   App::cpanminus: 1.0014
   App::local::lib::helper: 0.02
   Module::Install: 1.00
-  Module::Install::AuthorTests: 0.002
   Module::Install::AutoLicense: 0.08
   Module::Install::AutoManifest: 0.003
   Module::Install::Homepage: 0.01
   Module::Install::ManifestSkip: 0.14
-  Module::Install::ReadmeFromPod: 0.12
   Module::Install::ReadmeMarkdownFromPod: 0.03
   Module::Install::Repository: 0.06
   Module::Setup: 0.09
@@ -38,4 +36,4 @@ resources:
   homepage: http://search.cpan.org/dist/Task-BeLike-JJNAPIORK/
   license: http://dev.perl.org/licenses/
   repository: git://github.com/jjn1056/Task-BeLike-JJNAPIORK.git
-version: 0.05
+version: 0.06

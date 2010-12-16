@@ -19,6 +19,7 @@ inc/Module/Install/WriteAll.pm
 inc/Pod/Markdown.pm
 lib/Task/BeLike/JJNAPIORK.pm
 LICENSE
+maint/Makefile.PL.include
 Makefile.PL
 MANIFEST			This list of files
 META.yml
