@@ -4,7 +4,7 @@ author:
   - 'John Napiorkowski C< <<jjnapiork@cpan.org>> >'
 build_requires:
   ExtUtils::MakeMaker: 6.42
-  Test::More: 0
+  Test::More: 0.96
 configure_requires:
   ExtUtils::MakeMaker: 6.42
 distribution_type: module
@@ -20,8 +20,8 @@ no_index:
     - inc
     - t
 requires:
-  App::cpanminus: 1.0014
-  App::local::lib::helper: 0.02
+  App::cpanminus: 1.1005
+  App::local::lib::helper: 0.03
   Module::Install: 1.00
   Module::Install::AutoLicense: 0.08
   Module::Install::AutoManifest: 0.003
@@ -30,10 +30,10 @@ requires:
   Module::Install::ReadmeMarkdownFromPod: 0.03
   Module::Install::Repository: 0.06
   Module::Setup: 0.09
-  Module::Setup::Flavor::JJNAPIORK: 0.01
+  Module::Setup::Flavor::JJNAPIORK: 0.03
   perl: 5.8.8
 resources:
   homepage: http://search.cpan.org/dist/Task-BeLike-JJNAPIORK/
   license: http://dev.perl.org/licenses/
   repository: git://github.com/jjn1056/Task-BeLike-JJNAPIORK.git
-version: 0.06
+version: 0.07

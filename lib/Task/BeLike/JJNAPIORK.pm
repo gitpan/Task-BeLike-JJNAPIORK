@@ -1,7 +1,7 @@
 package Task::BeLike::JJNAPIORK;
 
 use 5.008008;
-our $VERSION = '0.06';
+our $VERSION = '0.07';
 
 =head1 NAME
 
@@ -14,7 +14,7 @@ Task::BeLike::JJNAPIORK - Stuff I use to start or maintain a CPAN project
 =head1 DESCRIPTION
 
 When I bootstrap a new project, or when someone wants to contribute to one of
-my projects, there's a handful of modules you need which are not listed in the
+my projects, there's a handful of modules needed which are not listed in the
 C<Makefile.PL>.  Think of these as 'meta' projects files, or like a SDK for 
 working on CPAN modules.  They are not things someone who is just using the
 module needs, just authors.
@@ -48,15 +48,21 @@ L<App::perlbrew>) and nothing else when starting a project.  I then bootstrap a
 L<local::lib> managed local directory of the basic dependencies and go from
 there.  I use the online version of L<App::cpanminus> to get this rolling:
 
-  curl http://cpanmin.us/ -L | perl - -l ~/mylocal Task::BeLike::JJNAPIORK
+    curl http://cpanmin.us/ -L | perl - -l ~/mylocal Task::BeLike::JJNAPIORK
 
 After that, I open a command interpreter who's environment has been fixed up to
 find the L<local::lib> which L<App::cpanminus> has created:
 
-  ~/mylocal/bin/localenv bash
+    ~/mylocal/bin/localenv bash
 
-After that I will use the project C<Makefile.PL> to install project level
-dependencies, start a new project, etc.
+For more info on the C<localenv> command, see L<App::local::lib::helper> and
+the documentation for L<local::lib>.
+
+Lastly, I will use the project C<Makefile.PL> to install project level
+dependencies, start a new project, etc.  It is considered a best practice to 
+always build your application as though it was destined for CPAN, even if you
+are building an internal or proprietary application.  For help creating a basic
+project skeleton, see L<Module::Setup> and L<Module::Setup::Flavor::JJNAPIORK>.
 
 =head1 MODULES INSTALLED
 
