@@ -31,9 +31,9 @@ requires:
   Module::Install::Repository: 0.06
   Module::Setup: 0.09
   Module::Setup::Flavor::JJNAPIORK: 0.03
-  perl: 5.8.8
+  perl: 5.8.5
 resources:
   homepage: http://search.cpan.org/dist/Task-BeLike-JJNAPIORK/
   license: http://dev.perl.org/licenses/
   repository: git://github.com/jjn1056/Task-BeLike-JJNAPIORK.git
-version: 0.07
+version: 0.08
